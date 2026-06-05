@@ -1,0 +1,43 @@
+# ==========================================
+# Proje Özel Veri ve Önbellek Dosyaları
+# ==========================================
+# Ham veri seti
+News_Category_Dataset_v3.json
+
+# Çıktı raporları
+koordineli_icerik_raporu.csv
+
+# MinHash, LSH ve Kaba Kuvvet önbellek dosyaları (Binary)
+*.pkl
+minhash_cache.pkl
+lsh_candidates.pkl
+ground_truth_pairs.pkl
+
+# ==========================================
+# Python Standart
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Sanal Ortamlar (Virtual Environments)
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================================
+# IDE ve İşletim Sistemi Dosyaları
+# ==========================================
+# VS Code
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# macOS / Windows 
+.DS_Store
+Thumbs.db
